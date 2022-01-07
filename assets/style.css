@@ -178,12 +178,17 @@ main {
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    background-color: #fff;
-    font-family: Helvetica, sans-serif;
+    background-color: var(--bg-gray);
+    font-family: 'Helvetica', sans-serif;
 }
 
-section {
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
     padding: 1em;
+    color: #000000;
 }
 
 /* section-1 ================== */
@@ -193,6 +198,7 @@ section {
     justify-content: center;
     align-items: center;
     color: #fff;
+    padding: 0;
 }
 
 #banner-text,
@@ -210,21 +216,26 @@ section {
 
 /* section-2 ================== */
 #section-2 {
-    background-color: var(--bg-gray);
     position: relative;
     background: url(images/curve.svg) no-repeat center top;
-    padding: 0;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em 0;
 }
 
 #section-2 img {
-    width: 50%;
+    width: 60%;
     margin-top: 3em;
 }
 
 /* section-3 ================== */
+#section-3 {
+    background-color: var(--bg-gray);
+    padding: 1em 0 7em;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -237,7 +248,6 @@ section {
 .card {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     margin: 1em;
     padding: 1em;
     width: 300px;
@@ -246,7 +256,7 @@ section {
     justify-content: top;
     align-items: center;
     flex-direction: column;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .card .icon-boundary {
@@ -281,7 +291,7 @@ section {
 }
 
 .card:hover .card-image {
-    background-color: var(--icon-color);
+    background-color: transparent;
 }
 
 .card:hover .card-text {
@@ -293,6 +303,82 @@ section {
 }
 
 /* section-4 ================== */
-
+#section-4 {
+    background-color: #fff;
+}
 
 /* section-5 ================== */
+#section-5 {
+    background-color: var(--site-green);
+    padding: 5em 0 10em;
+    color: white;
+}
+
+#section-5 h2 {
+    color: white;
+}
+
+#section-5 p {
+    width: 50%;
+    margin: 0 auto 2em;
+    font-family: 'Helvetica-Light', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+#section-5 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+}
+
+#section-5 fieldset {
+    width: 100%;
+    border: none;
+    display: flex;
+    gap: 1em;
+}
+
+#section-5 fieldset label {
+    display: none;
+}
+
+#section-5 fieldset input,
+#section-5 fieldset textarea {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    color: #fff;
+    transition: all 0.3s ease;
+    background-color: #fff4;
+    border: 1px solid #fff7;
+    resize: none;
+}
+    
+#section-5 fieldset input:focus,
+#section-5 fieldset textarea:focus {
+    outline: none;
+    background-color: #fffa;
+    color: grey;
+}
+
+#section-5 button {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    border-radius: 2em;
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    color: var(--site-green);
+    transition: all 0.3s ease;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
