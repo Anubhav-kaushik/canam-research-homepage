@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/font.css">
     <link rel="stylesheet" href="assets/style.css">
     <title>Canam Research</title>
 </head>
+
 <body>
     <!----------- Header ------------>
     <header>
-         <a class="logo" href="/"><img src="images/logo.svg" alt="logo"></a>
-           <nav>
-                <ul class="nav__links">
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </nav>
-            <a class="cta" href="#">Contact</a>
-           <a class="" href="">Log in</a>
-            <p class="menu cta">Menu</p>
-        </header>
-        <div class="overlay">
-            <a class="close">&times;</a>
-            <div class="overlay__content">
-                <a href="#">Our Services</a>
-                <a href="#">GDPR Compliant Programs</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-            </div>
+        <a class="logo" href="/"><img src="images/logo.svg" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#">Contact</a>
+        <a class="" href="">Log in</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="#">Our Services</a>
+            <a href="#">GDPR Compliant Programs</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
         </div>
+    </div>
     <!----------- Header Closed ------------>
-    
-     <!----------- Main ------------>
+
+    <!----------- Main ------------>
     <main>
         <div id="section-1">
             <div id="banner-text" class="text">
@@ -48,7 +51,7 @@
                 </p>
             </div>
             <div id="banner-image" class="image">
-                <img src="assets/images/banner.svg" alt="banner">
+                <img src="assets/images/hero.svg" alt="banner">
             </div>
         </div>
 
@@ -87,7 +90,8 @@
                     </div>
                     <div class="card-text">
                         <p>
-                            Gain insight on positioning your products so your key features and benefits align with the challenges and problems your audience is experiencing
+                            Gain insight on positioning your products so your key features and benefits align with the
+                            challenges and problems your audience is experiencing
                         </p>
                     </div>
                 </div>
@@ -108,12 +112,30 @@
                 Let's Get In Touch!
             </h2>
             <p>
-                Are you ready to target the right buyer? Fill your sales funnel? Drive your content marketing strategy? Awesome, fill out the form below and let’s get going!
+                Are you ready to target the right buyer? Fill your sales funnel? Drive your content marketing strategy?
+                Awesome, fill out the form below and let’s get going!
             </p>
-            <form></form>
+            <form>
+                <fieldset id="name-mobile">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="text" name="mobile" id="mobile" placeholder="Mobile no.">
+                </fieldset>
+                <fieldset>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </fieldset>
+                <fieldset>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
         </div>
-        
+
     </main>
     <!----------- Main Closed ------------>
 </body>
+
 </html>

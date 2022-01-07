@@ -124,3 +124,83 @@ header {
     display: initial;
   }
 }
+
+/* ----------------- main ----------------- */
+main {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+
+section {
+    padding: 1em;
+}
+
+/* section-1 ================== */
+#section-1 {
+    background-color: #1CB9A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#banner-text,
+#banner-image {
+    width: 50%;
+}
+
+#banner-text {
+    padding: 4em;
+}
+
+#banner-image img{
+    width: 100%;
+}
+
+/* section-2 ================== */
+#section-2 {
+    background-color: #2b2b2b09;
+    position: relative;
+    background: url(images/curve.svg) no-repeat center top;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#section-2 img {
+    height: 80%;
+}
+
+/* section-3 ================== */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 1em;
+    padding: 1em;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* section-4 ================== */
+
+
+/* section-5 ================== */
