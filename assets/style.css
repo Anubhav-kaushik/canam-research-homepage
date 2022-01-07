@@ -1,3 +1,9 @@
+:root {
+    --icon-color: #F49158;
+    --bg-gray: #F8F8F8;
+    --site-green: #1CB9A9;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -182,7 +188,7 @@ section {
 
 /* section-1 ================== */
 #section-1 {
-    background-color: #1CB9A9;
+    background-color: var(--site-green);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,18 +210,18 @@ section {
 
 /* section-2 ================== */
 #section-2 {
-    background-color: #2b2b2b09;
+    background-color: var(--bg-gray);
     position: relative;
     background: url(images/curve.svg) no-repeat center top;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
 }
 
 #section-2 img {
-    height: 80%;
+    width: 50%;
+    margin-top: 3em;
 }
 
 /* section-3 ================== */
@@ -237,9 +243,53 @@ section {
     width: 300px;
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     flex-direction: column;
+    transition: background-color 0.3s ease;
+}
+
+.card .icon-boundary {
+    fill: var(--icon-color);
+}
+
+.card .card-image {
+    width: 100px;
+    height: 100px;
+    background-color: var(--bg-gray);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+}
+
+.card .card-image svg {
+    width: 50%;
+    height: 50%;
+}
+
+.card .card-text {
+    margin: 1em 2em;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    background-color: var(--icon-color);
+    cursor: pointer;
+}
+
+.card:hover .card-image {
+    background-color: var(--icon-color);
+}
+
+.card:hover .card-text {
+    color: #fff;
+}
+
+.card:hover .icon-boundary {
+    fill: #fff;
 }
 
 /* section-4 ================== */
