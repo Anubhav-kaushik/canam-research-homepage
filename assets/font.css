@@ -27,3 +27,14 @@
     font-family: 'Helvetica-Rounded-Bold';
     src: url(fonts/helvetica-rounded-bold-5871d05ead8de.otf);
 }
+
+@font-face {
+    font-family: "helvetica-light";
+    src: url("fonts/helvetica-light.ttf");
+}
+
+@font-face {
+    font-family: "helvetica-medium";
+    src: url("fonts/helvetica-medium.ttf");
+}
+

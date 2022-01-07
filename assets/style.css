@@ -1,128 +1,170 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
-  background-color: #24252a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 5%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px #ddd;
 }
 
 .logo {
-  cursor: pointer;
+    cursor: pointer;
+}
+
+.logo img {
+    max-height: 40px;
 }
 
 .nav__links a,
 .cta,
 .overlay__content a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #edf0f1;
-  text-decoration: none;
+    font-family: "helvetica-medium";
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
 }
 
 .nav__links {
-  list-style: none;
-  display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .nav__links li {
-  padding: 0px 20px;
-}
-
-.nav__links li a {
-  transition: color 0.3s ease 0s;
+    padding: 0px 20px;
 }
 
 .nav__links li a:hover {
-  color: #0088a9;
+    color: #000000;
+    font-weight: 600;
+
 }
 
-.cta {
-  padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background-color 0.3s ease 0s;
+.login__signup {
+    list-style: none;
+    display: flex;
 }
 
-.cta:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+.login__signup li {
+    padding: 0px 20px;
+}
+
+.login__signup a {
+    font-family: "helvetica-medium";
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.login__signup .signup__cta {
+    padding: 9px 25px;
+    background-color: #F49158;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    color: #fff;
+}
+
+.nav__cta {
+    padding: 3px 2px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+.nav__cta .nav-bar {
+    font-size: 25px;
+}
+
+.nav__cta:hover {
+    background-color: #ffffff;
+    font-weight: 600;
 }
 
 /* Mobile Nav */
 
 .menu {
-  display: none;
+    display: none;
 }
 
 .overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  background-color: #24252a;
-  overflow-x: hidden;
-  transition: width 0.5s ease 0s;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
 }
 
 .overlay--active {
-  width: 100%;
+    width: 100%;
 }
 
 .overlay__content {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .overlay a {
-  padding: 15px;
-  font-size: 36px;
-  display: block;
-  transition: color 0.3s ease 0s;
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
+    color: #fff;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #0088a9;
+    color: #F49158;
 }
+
 .overlay .close {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  color: #edf0f1;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #ffffff;
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-  .overlay .close {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+    .overlay a {
+        font-size: 20px;
+    }
+
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
 }
 
-@media only screen and (max-width: 800px) {
-  .nav__links,
-  .cta {
-    display: none;
-  }
-  .menu {
-    display: initial;
-  }
+@media only screen and (max-width: 1200px) {
+    .nav__links {
+        display: none;
+    }
+
+    .login__box,
+    .cta {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+    }
 }
 
 /* ----------------- main ----------------- */
@@ -156,7 +198,7 @@ section {
     padding: 4em;
 }
 
-#banner-image img{
+#banner-image img {
     width: 100%;
 }
 
