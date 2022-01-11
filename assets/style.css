@@ -1,5 +1,6 @@
 :root {
     --icon-color: #F49158;
+    --icon-light: #F4915855;
     --bg-gray: #F8F8F8;
     --site-green: #1CB9A9;
 }
@@ -212,7 +213,7 @@ section {
     justify-content: top;
     align-items: center;
     flex-direction: column;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .card .icon-boundary {
@@ -247,7 +248,8 @@ section {
 }
 
 .card:hover .card-image {
-    background-color: transparent;
+    background-color: #ffa36f;
+    border: 2px solid white;
 }
 
 .card:hover .card-text {
