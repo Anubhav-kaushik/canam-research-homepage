@@ -31,7 +31,7 @@ function radiusChange(circle, maxTimes, minTimes) {
             runUntilExceedsMax(circle, maxRadius);
             radiusChange(circle, maxTimes, minTimes);
         }
-        
+    }
 }
 
 const iconCardsBottom = document.querySelectorAll('.icons_card');
