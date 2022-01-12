@@ -1,28 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 123.01 123.01" style="enable-background:new 0 0 123.01 123.01;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#E0E1E2;stroke-width:2.3222;stroke-miterlimit:10;}
-	.st1{fill:#10B8A8;}
-	.st2{fill:#F69259;}
-	.st3{fill:none;stroke:#10B8A8;stroke-width:3;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#10B8A8;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st5{fill:none;stroke:#F69259;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#10B8A8;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-	.st7{fill:none;stroke:#F69259;stroke-width:2.7823;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.orange-outline{
+		fill:none;
+		stroke:#F69259;
+		stroke-width:3;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke-miterlimit:10;
+		}
 </style>
 <g>
-	<path class="st5" d="M94.07,56.13V17.41H28.94V56.2c0,1.47,0.68,2.86,1.85,3.76l30.74,23.05l30.6-23.05
+	<path class="orange-outline" d="M94.07,56.13V17.41H28.94V56.2c0,1.47,0.68,2.86,1.85,3.76l30.74,23.05l30.6-23.05
 		C93.35,59.06,94.07,57.64,94.07,56.13z"/>
-	<polyline class="st5" points="28.94,41.42 16.93,50.21 16.84,105.6 106.17,105.6 106.17,50.21 94.07,41.42 	"/>
-	<line class="st5" x1="106.17" y1="50.21" x2="92.13" y2="59.95"/>
-	<line class="st5" x1="16.93" y1="50.21" x2="41.75" y2="68.17"/>
-	<line class="st5" x1="16.84" y1="105.6" x2="52.08" y2="75.92"/>
-	<line class="st5" x1="70.94" y1="75.92" x2="106.17" y2="105.6"/>
+	<polyline class="orange-outline" points="28.94,41.42 16.93,50.21 16.84,105.6 106.17,105.6 106.17,50.21 94.07,41.42 	"/>
+	<line class="orange-outline" x1="106.17" y1="50.21" x2="92.13" y2="59.95"/>
+	<line class="orange-outline" x1="16.93" y1="50.21" x2="41.75" y2="68.17"/>
+	<line class="orange-outline" x1="16.84" y1="105.6" x2="52.08" y2="75.92"/>
+	<line class="orange-outline" x1="70.94" y1="75.92" x2="106.17" y2="105.6"/>
 	<g>
-		<path class="st5" d="M43.9,70c0-9.74,7.89-17.63,17.63-17.63S79.16,60.26,79.16,70"/>
-		<circle class="st5" cx="61.46" cy="43.89" r="8.48"/>
+		<path class="orange-outline" d="M43.9,70c0-9.74,7.89-17.63,17.63-17.63S79.16,60.26,79.16,70"/>
+		<circle class="orange-outline" cx="61.46" cy="43.89" r="8.48"/>
 	</g>
 </g>
 </svg>

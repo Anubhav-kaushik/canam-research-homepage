@@ -216,10 +216,39 @@
                 <!-- add svg code here -->
                 <div class="icons_card">
                     <div class="icons_card-image">
-                        <img src="assets/images/icons v1-01.svg"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 123.01 123.01" xml:space="preserve">
+                        <style type="text/css">
+                            .green-outline{
+                                fill:none;
+                                stroke-width:3;
+                                stroke-linecap:round;
+                                stroke-linejoin:round;
+                                stroke-miterlimit:10;
+                                }
+                        </style>
+                        <g>
+                            <line class="green-outline" x1="61.49" y1="5.85" x2="61.49" y2="20.92"/>
+                            <circle class="green-outline" cx="61.51" cy="61.51" r="55.65"/>
+                            <line class="green-outline" x1="101.14" y1="61.08" x2="117.16" y2="61.08"/>
+                            <line class="green-outline" x1="5.94" y1="61.08" x2="21.96" y2="61.08"/>
+                            <line class="green-outline" x1="61.49" y1="100.63" x2="61.49" y2="116.65"/>
+                            <g>
+                                <path class="green-outline" d="M51.27,78.91c0-10.23,8.29-18.52,18.52-18.52s18.52,8.29,18.52,18.52"/>
+                                <circle class="green-outline" cx="69.71" cy="51.48" r="8.91"/>
+                            </g>
+                            <g>
+                                <path class="green-outline" d="M36.43,75.83c0-7.4,6-13.4,13.4-13.4c2.91,0,5.6,0.93,7.8,2.5"/>
+                                <circle class="green-outline" cx="49.77" cy="55.99" r="6.44"/>
+                            </g>
+                        </g>
+                    </svg>
                     </div>
                     <div class="icons_card-dots">
-                        <img src="assets/images/green-dots.svg" />
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 20 56" xml:space="preserve">
+                            <circle class="green-dots dots dot1" cx="10" cy="14" r="4"/>
+                            <circle class="green-dots dots dot2" cx="10" cy="28" r="4"/>
+                            <circle class="green-dots dots dot3" cx="10" cy="42" r="4"/>
+                        </svg>
                     </div>
                     <div class="icons_card-text">
                         <p>Define the ideal<br>audience that you<br>would like to survey </p>
@@ -231,19 +260,68 @@
                         <p>Get expert help to<br>develop a set of 10 to<br>15 survey questions</p>
                     </div>
                     <div class="icons_card-top-dots">
-                        <img src="assets/images/orange-dots.svg" />
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 20 56" xml:space="preserve">
+                            <circle class="orange-dots dots dot1" cx="10" cy="14" r="4"/>
+                            <circle class="orange-dots dots dot2" cx="10" cy="28" r="4"/>
+                            <circle class="orange-dots dots dot3" cx="10" cy="42" r="4"/>
+                        </svg>
                     </div>
                     <div class="icons_card-top-image">
-                        <img src="assets/images/icons v1-02.svg"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 123.01 123.01" style="enable-background:new 0 0 123.01 123.01;" xml:space="preserve">
+                        <style type="text/css">
+                            .orange-outline{
+                                fill:none;
+                                stroke-width:3;
+                                stroke-linecap:round;
+                                stroke-linejoin:round;
+                                stroke-miterlimit:10;
+                                }
+                        </style>
+                        <g>
+                            <path class="orange-outline" d="M94.07,56.13V17.41H28.94V56.2c0,1.47,0.68,2.86,1.85,3.76l30.74,23.05l30.6-23.05
+                                C93.35,59.06,94.07,57.64,94.07,56.13z"/>
+                            <polyline class="orange-outline" points="28.94,41.42 16.93,50.21 16.84,105.6 106.17,105.6 106.17,50.21 94.07,41.42 	"/>
+                            <line class="orange-outline" x1="106.17" y1="50.21" x2="92.13" y2="59.95"/>
+                            <line class="orange-outline" x1="16.93" y1="50.21" x2="41.75" y2="68.17"/>
+                            <line class="orange-outline" x1="16.84" y1="105.6" x2="52.08" y2="75.92"/>
+                            <line class="orange-outline" x1="70.94" y1="75.92" x2="106.17" y2="105.6"/>
+                            <g>
+                                <path class="orange-outline" d="M43.9,70c0-9.74,7.89-17.63,17.63-17.63S79.16,60.26,79.16,70"/>
+                                <circle class="orange-outline" cx="61.46" cy="43.89" r="8.48"/>
+                            </g>
+                        </g>
+                    </svg>
                     </div>
                 </div>
 
                 <div class="icons_card">
                     <div class="icons_card-image">
-                        <img src="assets/images/icons v1-03.svg"/>  
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 123.01 123.01" style="enable-background:new 0 0 123.01 123.01;" xml:space="preserve">
+                            <style type="text/css">
+                                .green-outline{fill:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+                            </style>
+                            <g>
+                                <path class="green-outline" d="M72.37,86.36h1.62c14.71,0,26.64,11.93,26.64,26.64v0.46H22.39v-0.46c0-14.71,11.93-26.64,24.64-26.64h4.19"/>
+                                <path class="green-outline" d="M71.73,76.77v9.4c0,5.28-4.28,9.55-9.55,9.55h0c-5.28,0-9.55-4.28-9.55-9.55V75.4"/>
+                                <path class="green-outline" d="M52.4,75.4c-8.38-3.71-14.11-11.86-14.11-21.61c0-13.19,10.69-23.89,23.89-23.89S86.06,40.6,86.06,53.79
+                                    c0,9.79-5.9,18.29-14.33,21.98"/>
+                                <line class="green-outline" x1="52.62" y1="81.37" x2="71.73" y2="81.37"/>
+                                <polyline class="green-outline" points="55.16,51.55 61.51,58.5 61.51,81.37 	"/>
+                                <line class="green-outline" x1="69.99" y1="51.06" x2="61.51" y2="58.5"/>
+                                <line class="green-outline" x1="24.7" y1="31.07" x2="30.9" y2="34.66"/>
+                                <line class="green-outline" x1="40.47" y1="15.29" x2="44.16" y2="21.37"/>
+                                <line class="green-outline" x1="83.6" y1="15.29" x2="79.92" y2="21.37"/>
+                                <line class="green-outline" x1="62.02" y1="9.56" x2="62.02" y2="16.6"/>
+                                <line class="green-outline" x1="99.37" y1="31.07" x2="93.17" y2="34.66"/>
+                            </g>
+                        </svg> 
                     </div>
                     <div class="icons_card-dots">
-                        <img src="assets/images/green-dots.svg" />
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 20 56" xml:space="preserve">
+                            <circle class="green-dots dots dot1" cx="10" cy="14" r="4"/>
+                            <circle class="green-dots dots dot2" cx="10" cy="28" r="4"/>
+                            <circle class="green-dots dots dot3" cx="10" cy="42" r="4"/>
+                        </svg>
                     </div>
                     <div class="icons_card-text">
                         <p>Invite your ideal<br>audience to take<br>the survey </p>
@@ -255,19 +333,55 @@
                         <p>Collect responses<br>online</p><br>
                     </div>
                     <div class="icons_card-top-dots">
-                        <img src="assets/images/orange-dots.svg" />
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 20 56" xml:space="preserve">
+                            <circle class="orange-dots dots dot1" cx="10" cy="14" r="4"/>
+                            <circle class="orange-dots dots dot2" cx="10" cy="28" r="4"/>
+                            <circle class="orange-dots dots dot3" cx="10" cy="42" r="4"/>
+                        </svg>
                     </div>
                     <div class="icons_card-top-image">
-                        <img src="assets/images/icons v1-04.svg"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 123.01 123.01" style="enable-background:new 0 0 123.01 123.01;" xml:space="preserve">
+                            <style type="text/css">
+                                .orange-outline{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+                            </style>
+                            <g>
+                                <circle class="orange-outline" cx="61.73" cy="34.14" r="10.27"/>
+                                <circle class="orange-outline" cx="61.73" cy="34.14" r="21.61"/>
+                                <path class="orange-outline" d="M91.83,110.48H31.18v-7.31L12.41,71.56V28.24c0-3.38,2.74-6.12,6.12-6.12h0c3.38,0,6.12,2.74,6.12,6.12v32.92"
+                                    />
+                                <path class="orange-outline" d="M32.29,110.48h59.8v-7.31l18.51-31.61V28.24c0-3.38-2.7-6.12-6.04-6.12h0c-3.34,0-6.04,2.74-6.04,6.12v30.6"/>
+                                <path class="orange-outline" d="M47.64,87.43L26.37,66.16c-2.43-2.43-2.43-6.37,0-8.8l0,0c2.43-2.43,6.37-2.43,8.8,0l22.27,22.09
+                                    c2.64,2.64,3.71,6.36,3.71,10.09"/>
+                                <path class="orange-outline" d="M74.16,89.52l23.03-23.36c2.4-2.43,2.4-6.37,0-8.8l0,0c-2.4-2.43-6.28-2.43-8.68,0L67.17,79
+                                    c-2.6,2.64-6.02,6.81-6.02,10.53v20.94"/>
+                            </g>
+                        </svg>
+
                     </div>
                 </div>
 
                 <div class="icons_card">
                     <div class="icons_card-image">
-                        <img src="assets/images/icons v1-05.svg"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 123.01 123.01" style="enable-background:new 0 0 123.01 123.01;" xml:space="preserve">
+                            <style type="text/css">
+                                .green-outline{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+                            </style>
+                            <g>
+                                <circle class="green-outline" cx="61.81" cy="50.85" r="24.05"/>
+                                <circle class="green-outline" cx="61.81" cy="50.77" r="31.15"/>
+                                <path class="green-outline" d="M44.74,76.54l-25.35,25.35c-2,2-5.24,2-7.23,0l0,0c-2-2-2-5.24,0-7.23l25.6-25.6"/>
+                                <polyline class="green-outline" points="118.38,50.85 112.52,50.85 106.52,57.91 101.98,41.65 97.29,50.75 92.96,50.77 	"/>
+                                <polyline class="green-outline" points="30.05,50.85 24.19,50.85 18.18,57.91 13.64,41.65 8.96,50.75 4.63,50.77 	"/>
+                            </g>
+                        </svg>
+
                     </div>
                     <div class="icons_card-dots">
-                        <img src="assets/images/green-dots.svg" />
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 20 56" xml:space="preserve">
+                            <circle class="green-dots dots dot1" cx="10" cy="14" r="4"/>
+                            <circle class="green-dots dots dot2" cx="10" cy="28" r="4"/>
+                            <circle class="green-dots dots dot3" cx="10" cy="42" r="4"/>
+                        </svg>
                     </div>
                     <div class="icons_card-text">
                         <p>Compile your<br>research findings<br>and analyze the data </p>
